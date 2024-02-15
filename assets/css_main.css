@@ -19,15 +19,8 @@
 	color: #cccccc;
 }
 
-/* unvisited link and visited link */
-a:link, a:visited {
-	color: #f7c420;
-}
-
-/* mouse over link and selected link */
-a:hover, a:active {
-	color: #e4cfb3;
-}
+a:link, a:visited {color: rgb(94, 0, 94);}
+a:hover, a:active {color: rgb(50, 0, 50);}
 
 /*juuuuust in case i need this..*/
 .rainbow {
@@ -91,4 +84,18 @@ body::before {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	text-align: center;
+}
+
+#wborder, #splashtext {
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+#splashtext {
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 10px; 
+    margin-left: 30%; 
+    margin-right: 10%; 
+    font-size: 22px
 }

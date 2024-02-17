@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--WOW... my first time making a sitemap... crazy...-->
+
+<html lang="en">
+<head>
+	<title>crowghostufo</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="crowghostufo"/>
+	<meta property="og:description" content="ultimate one stop fanpage for zaeadr, the cutest iz polyship on urth!"/>
+	<meta property="og:url" content="https://whataphantasia.github.io/crowghostufo/sitemap"/>
+	<meta property="og:image" content="https://whataphantasia.github.io/crowghostufo/img/splash_main.png"/>
+	
+    <link rel="shortcut icon" type="image/x-icon" href="/crowghostufo/favicon.ico">
+	<!--bootstrap-->
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<!-- Latest compiled JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+	<!--i love exo 2 mwa mwa mwa-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2">
+
+	<!-- JQUERY LOL help -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<!--overwrite bootstrap stuff-->
+	<link href="assets/css_main.css" rel="stylesheet">
+	<!--and space for any other potential stylesheets or js scripts i make...-->
+</head>
+
+<body>
+    <div class="sticky-top" style="z-index: 999; height: 40px;">
+        <div class="row">
+            <!--dark left section-->
+            <div class="col-12 col-md-9" style="background-color: black; height: 40px; z-index: 999;"><img src="/crowghostufo/img/Title1.png" class="d-block d-md-none mx-auto" style="height: 40px;"></div>
+            <!--dither-->
+            <div class="col-1 p-0"><img src="/crowghostufo/img/bar_dither.png" class="d-none d-md-block" style="margin-left: 0; padding-left: 0; z-index: 999;"></div>
+            <!--tiny logo!-->
+            <div class="col-2"><img src="/crowghostufo/img/Title1.png" class="d-none d-md-block mx-auto" style="top: 0; height: 50px; z-index: 999;"></div>
+        </div>
+    </div>
+
+    <!--body section-->
+    <div class="col-12">
+        <div class="row p-0 justify-content-center align-items-center">
+			<div class="col-md-8 p-5 m-0 text-left align-content-center border border-2 border-dark" style="background-color: grey; min-height: 100vh; max-height: 100%; overflow: auto;">
+                <div class="mb-4">
+                <h1 id="sitemap" style="font-size: 42px; line-height: 1; font-weight: bold;">
+                    sitemap</h1>
+                </div>
+
+                <div class="col-md-10 px-3">
+                    <ul>
+                        <li><a href="/crowghostufo">index</a>
+                        <li><a href="/crowghostufo/credits">credits and links</a>
+                        <li><a href="/crowghostufo/blog">blog</a>
+                        <ul>
+                            <li><a href="/crowghostufo/blog/archive">archive</a>
+                        </ul>
+                        <li><a href="/crowghostufo/manifesto">manifesto</a>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="col-md-4 mx-auto mt-auto sticky-md-bottom" style="z-index: 3;">
+
+                <div id="sidebar-base"></div>
+                <script>
+                $(function(){
+                $("#sidebar-base").load("/crowghostufo/sidebar.html");
+                });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

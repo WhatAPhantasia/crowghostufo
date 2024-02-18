@@ -80,7 +80,7 @@ body::before {
 	height: 100%;
 	width: 100%;
 	background-size: cover;
-	background-image: url("../img/bg_mirrorspace.png");
+	background-image: url("../img/ui/bg_mirrorspace.png");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	text-align: center;
